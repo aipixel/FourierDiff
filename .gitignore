@@ -118,6 +118,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+!.gitkeep
 
-exp/logs/*
+exp/logs/imagenet/*
 
