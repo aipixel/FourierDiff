@@ -1,0 +1,19 @@
+name: FourierDiff
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - numpy=1.24.3
+  - pillow=10.4.0
+  - python=3.8.19
+  - pytorch=1.11.0=py3.8_cuda11.3_cudnn8.2.0_0
+  - torchaudio=0.11.0
+  - torchvision=0.12.0
+  - pip:
+      - blobfile==2.1.1
+      - filelock==3.15.4
+      - lxml==4.9.4
+      - pycryptodomex==3.20.0
+      - pyyaml==6.0.1
+      - tqdm==4.66.4
+
