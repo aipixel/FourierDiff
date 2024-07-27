@@ -197,10 +197,6 @@ class Diffusion(object):
                         x = x0
                 input_y=x
 
-                tvu.save_image(
-                    input_y[0], os.path.join(self.args.image_folder, f"pce{name[0].split('/')[-1]}")
-                )
-
             H, W = input_y.shape[2:]
             input_y = check_image_size(input_y, 32)
             H_, W_ = input_y.shape[2:]
